@@ -57,4 +57,14 @@ Refere-se aos custos do dia a dia para manter a empresa funiconando.
 | Impacto financeiro | Depreciação ao longo do tempo | Custo direto no período |
 | Processo de compra | Mais rigorose e burocráticos | Mais rápido e menos burocrático |
 
+#### Modelo baseado em consumo
+
+É onde os clientes pagam por um serviço ou produto com base no quanto eles o utilizam, no lugar de ter um valor pré-determinado.
+No modelo baseado em consumo, o provedor define um preço por unidade de uso e o cliente paga apenas pela quantidade de uso que realmente fizer durante um determinado período.
+
+* Esse modelo permite um controle maior sobre os gastor, pois o cliente paga apenas pelo que utiliza.
+* Empresas podem facilmente adicionar ou remover recursos conforme o crescimento ou mudança de demanda.
+* Os clientes podem aumentar ou diminuir o uso conforme a necesssidade, sem compromisso de longo prazo.
+
+* Isto é uma atividade de curso de AZ 900 da DIO *
 
