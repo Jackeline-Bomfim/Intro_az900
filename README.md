@@ -15,9 +15,40 @@ A computação em nuvem substitui a necessidade de infraestruturade TI local por
 
 ## Tipos de nuvem
 
-Nuvem privada
+#### Nuvem privada
 
-Os recursos são dedicados apenas a uma organização, em sua própria infraestrutura, também conhecido como On Premise. As organizações criam um ambiente em nuvem em seus datacenter, toda a infraestrutura e recursos são de responsabilidade da organização. Não se fornece acesso a usuários de fora da organização
+É um ambiente de computaçõ em nuvem que oferece os benefícios da nuvem para uma única organização, com recursos dedicadis e isolado.
+* Recursos de computação em nuvem dedicados e isolados para uma única organização
+* Maior controle sobre a infraestrutura, segurança e personalidade do ambiente
+* Acesso restrito aos usuários da organização
 
-Nuvem pública
+#### Nuvem pública
+
+É um serviço de computação onde os recursos, como armazenamento e poder de processamento, são oferecidos por terceiros através da internet, e podem ser utilizados por qualquer pessoa ou empresa mediante uma assinatura ou pagamento por uso.
+
+* A infraestrutura é compartilhada entre múltiplos usuários.
+* Possui capacidade de aumentar ou diminuir os recursos de acordo com a demanda
+* Os serviços podem ser acessados de qualquer lugar atráves da internet
+
+#### Nuvem Híbrida
+
+É um ambiente de computação que combina uma nuvem privada com uma nuvem pública. Onde se pode combinar o controle e a segurança de uma nuvem privada com a escalabilidade e flexibilidade de uma nuvem pública.
+
+* As empresas podem escolher onde executar suas aplicações e armazenar seus dados, movendo-os entre os ambientes conforme necessário.
+* Pode otimizar os custos, utilizando a nuvem pública para tarefas que não exigem recursos dedicados, e a nuvem privada para tarefas que demandam mais controle.
+
+## CapEx e OpEX
+
+#### Despesas de Capital ( CapEx )
+
+Refere-se a investimentos em ativos de longo prazo, como a compra de equipamentos ou a construção de um novo prédio.
+
+#### Despesas Operacionais ( OpEx )
+
+Refere-se aos custos do dia a dia para manter a empresa funiconando.
+
+#### Princípais diferentes entre CapEx e OpEx
+
+| Características | CapEx | OpEx |
+| Prazo | Longo prazo | Curto prazo |
 
