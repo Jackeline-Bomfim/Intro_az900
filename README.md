@@ -50,6 +50,6 @@ Refere-se aos custos do dia a dia para manter a empresa funiconando.
 #### Princípais diferentes entre CapEx e OpEx
 
 | Características | CapEx | OpEx |
-| --- | --- |
+| --- | --- | --- |
 | Prazo | Longo prazo | Curto prazo |
 
