@@ -52,4 +52,9 @@ Refere-se aos custos do dia a dia para manter a empresa funiconando.
 | Características | CapEx | OpEx |
 | --- | --- | --- |
 | Prazo | Longo prazo | Curto prazo |
+| Natureza | Investimento em ativos | Despesas operacionais |
+| Pagamento | Geralmente à vista | Geralmente recorrente |
+| Impacto financeiro | Depreciação ao longo do tempo | Custo direto no período |
+| Processo de compra | Mais rigorose e burocráticos | Mais rápido e menos burocrático |
+
 
