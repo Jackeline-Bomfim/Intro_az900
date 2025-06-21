@@ -3,9 +3,8 @@
 Breve introdução sobre AZ900
 1. O que é computação em nuvem?
 2. Tipos de nuvem
-3. Comparação entre os tipos de nuvens
-4. CapEx e OpEx
-5. Modelo baseado em consumo
+3. CapEx e OpEx
+4. Modelo baseado em consumo
 
 ## O que é computação na nuvem?
 
@@ -66,5 +65,8 @@ No modelo baseado em consumo, o provedor define um preço por unidade de uso e o
 * Empresas podem facilmente adicionar ou remover recursos conforme o crescimento ou mudança de demanda.
 * Os clientes podem aumentar ou diminuir o uso conforme a necesssidade, sem compromisso de longo prazo.
 
-* Isto é uma atividade de curso de AZ 900 da DIO *
+
+
+
+*Isto é uma atividade de curso de AZ 900 da DIO*
 
