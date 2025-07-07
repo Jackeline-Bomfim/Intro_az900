@@ -13,7 +13,7 @@ No campo de pesquisa digite máquina virtual, depois em serviços clique em cria
 
 Em detalhes da instância, preencha conforme imagem abaixo:
 
-
+![Instancia](image/instance details.png)
 
 
 
