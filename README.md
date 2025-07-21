@@ -1,72 +1,76 @@
-# Introdução AZ900
+# Introdução AZ900 - Continuação
 
-Breve introdução sobre AZ900
-1. O que é computação em nuvem?
-2. Tipos de nuvem
-3. CapEx e OpEx
-4. Modelo baseado em consumo
+1. Benefícios da nuvem
+2. Tipos de serviços de nuvem
+3. Regiões
+4. Pares de regiões
+5. Recursos do Azure
 
-## O que é computação na nuvem?
+## Benefícios da nuvem
 
-Mas afinal o que essa tal de computação na nuvem! Será que os dados ficam no ar? Ou será que ficam na nuvem de fato? Claro que não 😂!!
-Computação na nuvem nada mais é que um entrega sob demanda de recursos de cumputação pela internet, permitindo que empresas e individuos acessem servidores, armazenamento, banco de dados, aplicações, redes e ferramentas analíticas sem a necessidade de gerenciar sua prórpia infraestrutura local.
-A computação em nuvem substitui a necessidade de infraestruturade TI local por serviços acessados pela internet, paga-se apenas pelos serviços utilizados, isso traz mais flecibilidade, escalabilidade e redução de custos.
+### Alta disponibilidade
+Concentra em garantir a disponibilidade máxima, independentemente de interrupões ou eventos que possam ocorrer.
 
-## Tipos de nuvem
+### Escalabilidade
+Permite que as empresas ajustem sua capacidade de computação conforme a necessidade, pagando apenas pelo que usa.
 
-#### Nuvem privada
+### Elasticidade
+Permite que as empresas ajustem dinamicamente seus recursos de TI para atender às demandas. Essa capacidade de escalar para cima ou para baixo conforme a necessidade evita o desperdício de recursos e garante que a infraestrutura esteja sempre otimizada para o momento.
 
-É um ambiente de computaçõ em nuvem que oferece os benefícios da nuvem para uma única organização, com recursos dedicadis e isolado.
-* Recursos de computação em nuvem dedicados e isolados para uma única organização
-* Maior controle sobre a infraestrutura, segurança e personalidade do ambiente
-* Acesso restrito aos usuários da organização
+### Confiabilidade
+Permite que as empresas tenham recursos implantados em várias regiões do mundo, oferecendo recursos como backup de dados, recuperação de desastres e continuidade dos negócios.
 
-#### Nuvem pública
+### Previsibilidade
+Importante para a gestão de serviços em nuvem, pode ser alcançado através de rpéticas como FinOps. Permite que equipes diferentes trabalhem juntas para equilibrar desempenho, custo e qualidade.
 
-É um serviço de computação onde os recursos, como armazenamento e poder de processamento, são oferecidos por terceiros através da internet, e podem ser utilizados por qualquer pessoa ou empresa mediante uma assinatura ou pagamento por uso.
+### Segurança
+Oferecem  várias ferramentas de segurança, mas vale lembrar que a implementação de muitas delas devem ser realizadas pelo cliente.
 
-* A infraestrutura é compartilhada entre múltiplos usuários.
-* Possui capacidade de aumentar ou diminuir os recursos de acordo com a demanda
-* Os serviços podem ser acessados de qualquer lugar atráves da internet
+### Governança
+Ajuda as empresas a equilibrar a inovação com o controle, garantindo que os recursos em nuvem sejam usados de forma eficiente e segura.
 
-#### Nuvem Híbrida
+### Gerenciabilidade
+Oferce maior controel sobre os recursos, otimização de custos, agilidade no desenvolvimento e implementação de aplicações, além de segurança aprimorada.
 
-É um ambiente de computação que combina uma nuvem privada com uma nuvem pública. Onde se pode combinar o controle e a segurança de uma nuvem privada com a escalabilidade e flexibilidade de uma nuvem pública.
+## Tipos de serviços de nuvem
 
-* As empresas podem escolher onde executar suas aplicações e armazenar seus dados, movendo-os entre os ambientes conforme necessário.
-* Pode otimizar os custos, utilizando a nuvem pública para tarefas que não exigem recursos dedicados, e a nuvem privada para tarefas que demandam mais controle.
+### IaaS (Infraestrutura como serviço)
+É um modelo de computação em nuvem onde os recursos computacionais como servidores, armazenamento e redes são disponibilizados sob demanda pela internet. As empresas podem utilizar esses recursos sem a necessidade de adquirir, gerenciar e manter sua própria infraestrutura física.
 
-## CapEx e OpEX
+### PaaS (Plataforma como serviço)
+É um modelo de computação em nuvem que oferece uma plataforma completa, incluindo hardware, software e infraestrutura, para o desenvolvimento, excecução e gerenciamento de aplicativos, permite que desenvolvedores se concentrem na criação de aplicativos, enquanto o provedor de nuvem cuida da infraestrutura subjacente.
 
-#### Despesas de Capital ( CapEx )
+### SaaS (Software como serviço)
+E um modelo de computação em nuvem que oferece software através da internet. As empresas que oferecem SaaS cuidam da infraestrutura, manutenção e atualização, enquanto os clientes acessam o software através de um navegador ou aplicativo.
 
-Refere-se a investimentos em ativos de longo prazo, como a compra de equipamentos ou a construção de um novo prédio.
+### Comparação dos serviços de nuvem (IaaS, PaaS e SaaS)
+IaaS fornece infraestrutura virtualizada, PaaS oferece uma plataforma para desenvolvimento e SaaS entrega aplicativos prontos para uso.
 
-#### Despesas Operacionais ( OpEx )
+## Regiões
+São áreas geográficas onde os provedores de nuvem possuem data centers. Cada região é projetada para fornecer serviços de nuvem de forma redundante e confiável, com múltiplas zonas de disponibilidade.
 
-Refere-se aos custos do dia a dia para manter a empresa funiconando.
+### Zona de disponibilidade
+São locais fisicamente separados dentro de uma região. Eles são projetados para oferecer alta disponibilidade, de forma que, se uma zona falhar, outras zonas na mesma região possam continuar operando normalmente.
 
-#### Princípais diferentes entre CapEx e OpEx
+## Pares de regiões
+São pares predefinidos de regiões dentro de um provedor de nuvem que são projetaos para trabalhar em conjunto. O objetivo principal é fornecer redundância geográfica e recuperação de desastres.
 
-| Características | CapEx | OpEx |
-| --- | --- | --- |
-| Prazo | Longo prazo | Curto prazo |
-| Natureza | Investimento em ativos | Despesas operacionais |
-| Pagamento | Geralmente à vista | Geralmente recorrente |
-| Impacto financeiro | Depreciação ao longo do tempo | Custo direto no período |
-| Processo de compra | Mais rigorose e burocráticos | Mais rápido e menos burocrático |
+## Recursos do Azure
+São os blocos de construção fundamentais para a sua estrutura e aplicativos na nuvem. Eles incluem serviços de computação, armazenamento, rede, banco de dados, análise, interligência artificial, entre outros. Cada recuros é provisionado e gerenciado por meio do Azure Resource Manager, permitindo organização, implantação e gerenciamento eficientes.
 
-#### Modelo baseado em consumo
+### Assinatura do Azure
+É como uma conta que organiza e gerencia todos os recursos de nuvem que você usa, como máquinas virtuais, banco de dados, etc. Ela também define como esses recursos são cobrados, gerlmente por departamento ou projeto.
+* **Limite de cobrança**: gere relatórios de cobrança e faturas separados para cada assinatura.
 
-É onde os clientes pagam por um serviço ou produto com base no quanto eles o utilizam, no lugar de ter um valor pré-determinado.
-No modelo baseado em consumo, o provedor define um preço por unidade de uso e o cliente paga apenas pela quantidade de uso que realmente fizer durante um determinado período.
+* **Limite do controle de acesso**: gerenciar e controlar acesso aos recursos que os usuários podem provisionar com assinaturas específicas.
 
-* Esse modelo permite um controle maior sobre os gastor, pois o cliente paga apenas pelo que utiliza.
-* Empresas podem facilmente adicionar ou remover recursos conforme o crescimento ou mudança de demanda.
-* Os clientes podem aumentar ou diminuir o uso conforme a necesssidade, sem compromisso de longo prazo.
+#### Múltiplas assinaturas
+Uma organização pode ter várias assinaturas do Azure, por exemplo, uma para cada departamento, ou uma para desenvolvimento e outra para produção.
 
+#### Conta individual
+Um usuário também pode ter várias assinaturas, como uma assinatura do Visual Studio Enterprese com créditos mensais e outra assinatura paga conforme o usu.
 
-
+### Grupos de gerenciamento
+Fornecem um nível de escopo de governança acima das assinaturas. Quando você organiza assinaturas em grupos de gerenciamento, as condições de governança aplicadas são propagadas por herança a todas as assinaturas associadas.
 
 *Isto é uma atividade de curso de AZ 900 da DIO*
-
